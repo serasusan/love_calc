@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <title>Love Calculator</title>
 </head>
 <body >
     <form action="/calculate" method="post">
-        <label for="name1">Enter Name 1:</label>
-        <input type="text" id="name1" name="name1"><br>
+        <div class="details">
+            <label for="name1" style="padding-bottom: 20px;">Enter Name 1:</label>
+            <input type="text" id="name1" name="name1" required ><br>
 
-        <label for="name2">Enter Name 2:</label>
-        <input type="text" id="name2" name="name2"><br>
-
-        <input type="submit" value="Calculate Love Percentage">
+            <label for="name2" style="padding-bottom:20px ;">Enter Name 2:</label>
+            <input type="text" id="name2" name="name2" required><br>
+        </div>
+        <div class="click">
+            <input type="submit" value="Calculate Love Percentage">
+        </div>
     </form>
 </body>
 </html>

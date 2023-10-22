@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
 
     <title>Love Calculator Result</title>
 </head>
 <body>
-    <h1>Love Calculator Result</h1>
-    <p>Names: {{ name1 }} and {{ name2 }}</p>
-    <p>Love Percentage: {{ love_percentage }}%</p>
-    <form action="/test" method="get">
-        <button type="submit">Go Back</button>
-    </form> 
+    <div class="result">
+        <h1 style="background-color: black;color:whitesmoke;padding: 20px;border-radius: 10px;">Love Calculator Result</h1>
+        <p style="font-size: 30px;">Names: {{ name1 }} and {{ name2 }}</p>
+        <p style="font-size: 25px;">Love Percentage: {{ love_percentage }}%</p>
+        <form action="/test" method="get">
+            <button type="submit">Go Back</button>
+        </form>
+    </div>
 </body>
 </html>
