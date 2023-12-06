@@ -1,5 +1,5 @@
 ## Link
-https://love-calc.onrender.com/?
+[Click here!](https://love-calc.onrender.com/?)
 
 This is a basic love calculator inspired from Mehar ikka 😂
 ![firstpage](1.jpg)
