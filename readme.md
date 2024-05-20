@@ -1,7 +1,7 @@
 ## Link
 [Click here!](https://love-calc.onrender.com/?)
 
-This is a basic love calculator 
+This is a basic love calculator💙
 
 ![firstpage](1.jpg)
 ![secondpage](2.jpg)
